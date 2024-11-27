@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 800px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 40px;
+    background: #fff;
+  }
+  
+  .welcome-container {
+    flex: 1;
+    padding: 40px;
+    background: linear-gradient(135deg, #38b06b, #0da359);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .form-title,
+  .welcome-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signin-button,
+  .signup-button {
+    background-color: #0da359;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-button:hover,
+  .signup-button:hover {
+    background-color: #0b8b4c;
+  }
+  
+  .signin-with {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0;
+    color: #888;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #388e3c;
+  }
+  
+  .welcome-message {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
